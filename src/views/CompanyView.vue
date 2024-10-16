@@ -3,17 +3,17 @@
     <BackgroundComponent
       backgroundImage="../company_bg.png"
       title="ABOUT OUR COMPANY"
-      text="We are a clean tech company dedicated to nex-gen SOFC technology."      
+      text="We are a clean tech company dedicated to next-gen SOFC technology."      
       titleColor="white"
       textColor="white"
       titleSize="3rem"
-      textSize="1rem"
+      textSize="1.5rem"
     />
 
 
     <div class="text-section">
     <h2>Our Story</h2>
-    <p>ounded in 2023, Serenity Power is at the forefront of clean energy innovation. We specialize in developing advanced Solid Oxide Fuel Cells (SOFCs) aimed to transform the heavy-duty transportation industry by providing innovative, efficient, and environmentally friendly power solutions. Our team of experts is dedicated to creating sustainable energy solutions that meet the growing demand for cleaner, more efficient power. 
+    <p>Founded in 2023, Serenity Power is at the forefront of clean energy innovation. We specialize in developing advanced Solid Oxide Fuel Cells (SOFCs) aimed to transform the heavy-duty transportation industry by providing innovative, efficient, and environmentally friendly power solutions. Our team of experts is dedicated to creating sustainable energy solutions that meet the growing demand for cleaner, more efficient power. 
     </p>
   </div>
     
@@ -51,7 +51,7 @@
           <p>Driven by our mission to create a lasting, positive impact on people and the planet.
           </p>
         </div>
-        <div class="value-card">
+        <!-- <div class="value-card">
           <img src="@/assets/truck.png" alt="Agility Icon" class="value-icon" />
           <h3>Collaboration</h3>
           <p>Building strong partnerships to accelerate clean technology advancements.
@@ -61,7 +61,7 @@
           <img src="@/assets/truck.png" alt="Agility Icon" class="value-icon" />
           <h3>Empowerment</h3>
           <p>Fostering an environment where creativity, inclusivity, and growth thrive.</p>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -78,7 +78,9 @@
 <div class="background-container">
     <img src="@/assets/company_end.png" alt="truck" class="background-image">
     <div class="content-overlay">
-      <h2 style="color: white;">Let’s Build a Better Planet</h2></div>
+      <h2 style="color: white;">LET'S BUILD A BETTER PLANET</h2>
+      <p>Join us in revolutionizing heavy-duty transportation with advanced SOFC technology. Together, we can drive a sustainable future and make a lasting impact on the planet.</p>
+    </div>
     </div>
 
 
@@ -172,29 +174,29 @@ export default {
 
 .text-section {
           
-            padding: 20px;
-            border-radius: 10px;
-            max-width: 800px;
-            margin: 0 auto;
-            font-family: Arial, sans-serif;
-            color: #333;
-        }
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+      color: #333;
+  }
 
-        .text-section h2 {
-            color: #005d7a;
-            font-size: 32px;
-        }
+  .text-section h2 {
+      color: #005d7a;
+      font-size: 32px;
+  }
 
-        .text-section p {
-            font-size: 18px;
-            line-height: 1.6;
-            margin: 10px 0;
-        }
+  .text-section p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 10px 0;
+  }
 
-        .text-section .highlight {
-            font-weight: bold;
-            color: #075F7A;
-        }
+  .text-section .highlight {
+      font-weight: bold;
+      color: #075F7A;
+  }
 .background-container {
   width: 100vw;
   height: 50vh;
