@@ -35,3 +35,5 @@ yarn-error.log*
 *.pid
 *.seed
 *.pid.lock
+node_modules
+node_modules
